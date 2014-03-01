@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<title>Qing Qu</title>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+});
+</script> 
+</head>
+
+<body>
+<div id="wrapper"> 
+  <!--header starts -->
+  <header id="header"></header>
+  
+  <!--content starts -->
+  <section id="content" class="jumbotron">
+    <center>
+      <!--container1 starts -->
+      <div id="container1" >
+        <p>I MAKE<br>
+          CLEAN INTERFACES THAT ARE<br>
+          EASY TO USE</p>
+      </div>
+      <div id="button">
+        <p><a href="projects.html">View My Recent Works</a></p>
+      </div>
+    </center>
+  </section>
+  <section id="content2">
+    <center>
+      <!--container2 starts -->
+      <div id="container2" class="row">
+        <div class="col-sm-4">
+          <div class="imgframe"> <img src="images/mac-iphone.gif" /> </div>
+          <div class="caption">
+            <p>I design for both Web and Mobile Devices</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="imgframe">
+            <div class="hci">HCI</div>
+          </div>
+          <div class="caption">
+            <p>I’m an HCI person, so I take care of 
+              user and usability very well</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="imgframe"> <img src="images/code.gif" /> </div>
+          <div class="caption">
+            <p>Strong HTML5, CSS3 and JS skills</p>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </center>
+  </section>
+  <div class="clear"></div>
+  <footer>
+    <div id="copyright"> © 2013 Qing Qu <span id="email" class="navbar-button pull-right "> Email: quqing11@gmail.com </span> </div>
+  </footer>
+</div>
+</body>
+</html>

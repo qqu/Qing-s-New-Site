@@ -1,0 +1,73 @@
+/* style.scss */
+@font-face {
+  font-family: proximanovalight;
+  src: url(http://www.terpconnect.umd.edu/~qqu/proximanovalight.ttf); }
+
+@font-face {
+  font-family: proximanovasemibold;
+  src: url(http://www.terpconnect.umd.edu/~qqu/proximanovasemibold.ttf); }
+
+@font-face {
+  font-family: proximanovaregular;
+  src: url(http://www.terpconnect.umd.edu/~qqu/proximanovaregular.ttf); }
+
+@font-face {
+  font-family: proximanovabold;
+  src: url(http://www.terpconnect.umd.edu/~qqu/proximanovabold.ttf); }
+
+.clear {
+  clear: both; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+h2 {
+  font-family: proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+  font-size: 90px;
+  font-weight: bold;
+  color: #5a5a5a;
+  text-shadow: 0px 1px 1px #ffffff; }
+
+h3 {
+  font-family: proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+  font-size: 45px;
+  color: #ffffff;
+  text-shadow: 0px -1px 0px #3f3f3f; }
+
+h4 {
+  font-family: proximanovalight, proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+  font-size: 45px;
+  color: #ffffff;
+  text-shadow: 0px -1px 0px #3f3f3f; }
+
+h5 {
+  font-family: proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+  font-size: 24px;
+  color: #1a1a1a; }
+
+a:link {
+  color: #1a1a1a; }
+
+/* unvisited links */
+a:visited {
+  color: #1a1a1a; }
+
+/* visited links   */
+a:hover {
+  color: #7c7c7c; }
+
+/* user hovers     */
+a:active {
+  color: #7c7c7c; }
+
+/* active links    */
+/* reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: none; }
+
+html {
+  width: 100%; }

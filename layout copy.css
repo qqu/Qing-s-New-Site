@@ -1,0 +1,509 @@
+	
+/* CSS Document */
+
+@font-face {
+	font-family:proximanovalight;
+	
+	src:url(http://www.terpconnect.umd.edu/~qqu/proximanovalight.ttf);
+}
+
+@font-face {
+	font-family:proximanovasemibold;
+	
+	src:url(http://www.terpconnect.umd.edu/~qqu/proximanovasemibold.ttf);
+}
+
+@font-face {
+	font-family:proximanovaregular;
+	
+	src:url(http://www.terpconnect.umd.edu/~qqu/proximanovaregular.ttf);
+}
+
+@font-face {
+	font-family:proximanovabold;
+	
+	src:url(http://www.terpconnect.umd.edu/~qqu/proximanovabold.ttf);
+}
+.clear{
+clear:both;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight:normal;
+}
+
+
+h2{
+font-family:proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:90px;
+font-weight:bold;
+color:#5a5a5a;
+text-shadow: 0px 1px 1px #ffffff;
+}
+
+h3{
+font-family: proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:45px;
+color:#ffffff;
+text-shadow: 0px -1px 0px rgba(63, 63, 63, 1);
+}
+
+h4{
+font-family: proximanovalight, proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:20px;
+color:#1c1c1c;
+text-shadow: 0px 1px 1px #ffffff;
+margin-bottom:10px;
+}
+
+h5{
+font-family:proximanovabold, "Helvetica Neue", Arial;
+font-size:16px;
+color:#c74f43;
+text-shadow: 0px 1px 1px #ffffff;
+line-height:24px;
+}
+
+h6{
+font-family:proximanovalight, proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:16px;
+color:#1a1a1a;
+text-shadow:0px 1px 1px #ffffff;
+}
+
+.hci{
+font-family:proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:92px;
+font-weight:bold;
+color:#5a5a5a;
+text-shadow: 0px 1px 1px #ffffff;
+}
+
+a:link    { color: #1a1a1a}  /* unvisited links */
+a:visited   { color: #1a1a1a}  /* visited links */
+a:hover   { color: #7c7c7c }  /* user hovers     */
+a:active  { color: #7c7c7c}  /* active links    */
+a.select{color:#F00}
+
+/* reset */
+* {
+margin:0;
+padding:0;
+}
+
+img {
+border:none;	
+}
+
+html {
+margin:0 !important;
+padding:0 !important;
+
+width: 100%;
+}
+/*body*/
+body{
+background:url(images/bg.png) repeat;
+margin:0 !important;
+padding:0 !important;
+
+}
+
+iframe{
+box-shadow:0 1px 1px #777777;	
+}
+
+#wrapper{
+margin:0 !important;
+padding:0 !important;
+box-shadow:0 1px 3px #666;	
+}
+/*header*/
+header{
+width:100%;
+display:block;
+border-bottom:solid 1px #999999;
+background:rgba(255, 255, 255, 0.8);
+}
+
+
+
+#logo {
+font-family:proximanovalight, Helvetica Neue;
+font-size:28px;
+text-shadow: 0px 1px 1px #ffffff;
+text-align:center;
+color:#5a5a5a;
+padding:20px 0 0 50px;
+float:left;
+}
+
+#logo a{
+text-decoration:none;	
+}
+.logo_cap{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:12px;
+text-shadow: 0px 1px 1px #ffffff;
+color:#7f7f7f;
+}
+
+#nav{
+	padding:25px 30px 0 0;
+}
+
+
+ul li {
+	font: 14px proximanovalight, Verdana, 'Lucida Grande';
+	cursor: pointer;
+}
+
+ul > li {
+	display: inline-block;
+}
+
+ul li a {
+	text-shadow: 0px 1px 1px #ffffff;
+	text-decoration: none;
+	padding: 0 0 0 50px;
+	
+	color: #5a5a5a !important;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+ul li a:hover {
+	color: #c74f43 !important;
+	text-decoration:underline !important;
+	
+}
+
+footer{
+background:url(images/footer_bg.gif) repeat-x;
+height:70px;
+margin-top:100px;	
+}
+
+footer #copyright{
+color:#6c6c6c;
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold,"Helvetica Neue", Arial;
+font-size:12px;
+padding:30px 0 0 8%;
+text-shadow: 0px 1px 1px #ffffff;
+}
+
+footer #email{
+float:right;
+margin:0 8% 0 0;	
+}
+
+
+
+/*content*/
+#content {
+height:auto;
+background:#c74f43;
+width:100%;
+padding-bottom:40px;
+
+}
+
+#container1{
+width:100%;	
+
+line-height:60px;
+padding-top:40px;
+}
+
+#container1 p{
+font-family: proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:45px;
+color:#ffffff;
+text-shadow: 0px -1px 0px rgba(63, 63, 63, 1);
+}
+
+#button{
+width:240px;
+height:60px;
+margin:20px auto;
+text-align:center;
+line-height:60px;
+background:#cc847d;
+-webkit-border-radius:2px;
+border:solid 1px #ffe0e0;
+box-shadow: 0 1px 1px #414141;
+}
+
+#button p a{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold,"Helvetica Neue", Arial;
+font-size:18px;
+color:#eeeeee;
+text-shadow:0 1px 1px #363636;
+text-decoration:none;
+}
+
+#content2{
+display:block;
+text-align: center;
+width:100%;
+height:auto;
+padding:50px 0 0px 0;
+margin:0 auto;
+
+}
+
+#container2{
+
+text-align: center;
+}
+
+
+.caption{
+text-align:center;
+font-family:proximanovalight, "Helvetica Neue", Arial, proximanovasemibold, proximanovabold;
+font-size:16px;
+color:#7b7b7b;
+text-shadow: 0px 1px 1px #ffffff;
+}
+
+.caption p{
+padding:20px 0px 0 0px;
+}
+
+
+
+/*End of index page*/
+/*start of projects page*/
+
+#projects{
+width:1024px;
+height:auto;
+margin:0px auto;
+
+}
+
+.project{
+margin:0px auto;
+font-size:0;
+width:900px;
+height:300px;
+background:#ffffff;
+margin-top:50px;
+border-radius:2px;
+border:solid 1px #cfcfcf;	
+}
+
+.description{
+vertical-align:top;
+display:inline-block;
+padding:40px 0 0 50px;
+width:290px;
+height:270px;
+
+}
+
+.description p{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:21px;
+color:#1a1a1a;
+margin-bottom:5px;
+}
+
+dt{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:16px;
+color:#1a1a1a;
+margin-top:20px;
+margin-bottom:5px;
+}
+
+dd{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:14px;
+color:#6c6c6c;
+
+line-height:18px;
+}
+
+.img{
+vertical-align:top;
+display:inline-block;
+padding:0px 0 0 0px;
+width:560px;
+height:300px;
+
+}
+
+/*End of projects page*/
+/*start of PPXOdetail page*/
+.container3{
+	vertical-align:top;
+display:inline-block;
+width:370px;
+padding:0 20px;
+	
+}
+.container4{
+vertical-align:top;
+display:inline-block;
+margin:0 20px;	
+}
+
+
+
+#process{
+width:1024px;
+height:auto;
+margin:0px auto;
+}
+
+.step_one{
+margin:0px auto;
+font-size:0;
+width:900px;
+margin-top:50px;
+margin-bottom:50px;
+border-radius:2px;		
+}
+
+.step_one p{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:32px;
+color:#009cdc;
+margin-bottom:14px;
+text-shadow: 0px 1px 1px #ffffff;	
+}
+
+.step_one dd{
+font-family:proximanovalight, proximanovaregular ,proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:16px;
+color:#6c6c6c;
+line-height:27px;
+margin-bottom:10px;
+text-shadow: 0px 1px 1px #ffffff;
+}
+
+/*End of PPXOdetail page*/
+/*start of gallery page*/
+
+.subnav{
+width:1024px;
+margin:0 auto;
+}
+
+.box_4{
+
+margin-top:20px;	
+}
+
+ul.polaroids{
+padding:0px 0 0 0;
+display:inline;	
+}
+
+ul.polaroids li{
+display: inline-block;
+margin:0px 15px 50px 15px;
+}
+
+ul.polaroids a:after {
+content: attr(title);
+}
+
+ul.polaroids img { display: block; width: 240px;  }
+
+ul.polaroids a { 
+padding:0; 
+overflow:hidden;
+background: #fff; 
+float: left; 
+width:240px;
+height:180px;
+border:10px solid #FFF; 
+border-radius: 3px;
+font-family: "Marker Felt", sans-serif; text-decoration: none; color: #333; font-size: 18px; 
+-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.45); 
+-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.45); 
+-webkit-transform: rotate(0deg); 
+-moz-transform: rotate(0deg);
+-webkit-transition: -webkit-transform .45s ease-in-out, opacity 0.7s ease-in-out; 
+-moz-transition: -webkit-transform .45s ease-in-out, opacity 1.0s ease-in-out; 
+ }
+
+
+ul.polaroids li a:hover {
+opacity:0.7;
+position: relative;
+z-index: 5;
+}
+
+/*End of gallery page*/
+/*start of UX*/
+#content3{
+display:block;
+width:100%;
+height:auto;
+padding:50px 0 50px 0;		
+
+}
+
+#container3{
+padding:5px 0px 5px 0px;
+
+font-size:0px;
+text-align:center;
+
+}
+
+.box_1{
+text-align:left;
+display:inline-block;
+width:280px;	
+border-radius:2px;
+border:solid 1px #cfcfcf;
+height:180px;
+margin:0 5px 0 5px;
+padding:15px 10px 15px 10px;
+vertical-align:top;
+}
+
+.box_2{
+text-align:left;
+display:inline-block;
+width:700px;
+border-radius:2px;
+border:solid 1px #cfcfcf;
+height:300px;
+margin:0 5px 0 5px;
+padding:15px 10px 15px 10px;
+}
+
+.box_3{
+text-align:left;
+display:inline-block;
+width:172px;
+border-radius:2px;
+border:solid 1px #cfcfcf;
+height:300px;
+margin:0 5px 0 5px;
+padding:15px 10px 15px 10px;
+vertical-align:top;
+}
+
+.box_2 h6{
+margin-bottom:30px;	
+}
+
+#container4{
+padding:50px 100px 0px 50px;
+font-size:0px;
+}
+#container4 p{
+font-family:proximanovalight, proximanovasemibold, proximanovabold, "Helvetica Neue", Arial;
+font-size:14px;
+color:#7c7c7c;
+line-height:20px;	
+text-shadow:0px 1px 1px #ffffff;
+}
